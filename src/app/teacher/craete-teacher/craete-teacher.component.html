@@ -1,0 +1,17 @@
+<div class="container col-7 mt-5">
+  <div class="card">
+    <div class="card-body">
+      <form action="">
+        <div class="form-group">
+          <label> Name </label>
+          <input type="text" name="name" [(ngModel)]="tacher.name" class="form-control" placeholder="Name">
+        </div>
+        <div class="form-group">
+          <label> Course </label>
+          <input type="text" name="level" [(ngModel)]="tacher.course" class="form-control" placeholder="Course">
+        </div>
+        <button (click)="seve()" class="btn btn-info btn-block"> Send Data </button>
+      </form>
+    </div>
+  </div>
+</div>
